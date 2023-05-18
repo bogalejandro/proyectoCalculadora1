@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora HTML</title>
+    <script src="/calculadora/funciones/funcion.js"></script>
+
+    <link rel="stylesheet" href="/calculadora/estilos/estilos.css">
+</head>
+<body>
+
+    <div class="calculator">
+    <h2>Calculadora</h2>
+    <input id="result" type="text" disabled>
+    <div class="buttons">
+      <button onclick="appendToInput('7')">7</button>
+      <button onclick="appendToInput('8')">8</button>
+      <button onclick="appendToInput('9')">9</button>
+      <button onclick="appendToInput('+')">+</button>
+      <button onclick="appendToInput('4')">4</button>
+      <button onclick="appendToInput('5')">5</button>
+      <button onclick="appendToInput('6')">6</button>
+      <button onclick="appendToInput('-')">-</button>
+      <button onclick="appendToInput('1')">1</button>
+      <button onclick="appendToInput('2')">2</button>
+      <button onclick="appendToInput('3')">3</button>
+      <button onclick="appendToInput('*')">*</button>
+      <button onclick="appendToInput('0')">0</button>
+      <button onclick="appendToInput('.')">.</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendToInput('/')">/</button>
+      <button onclick="calculateIMC()">IMC</button>
+      <button onclick="calculateIVA()">IVA</button>
+      <button onclick="clearInput()">C</button>
+    </div>
+
+    <div class="signature">
+     <a target="_blank" href="https://github.com/bogalejandro" class="signature-text">@bogalejandro</a>
+      </div>
+  </div>
+
+
+</body>
+</html>
